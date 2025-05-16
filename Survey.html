@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="User survey form">
+  <meta name="keywords" content="survey, feedback, form">
+  <meta name="author" content="Your Name">
+  <title>Survey | Your Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Feedback Survey</h1>
+    <form action="#" method="post">
+      <label for="experience">How was your experience?</label><br>
+      <input type="radio" id="excellent" name="experience" value="excellent" required> Excellent<br>
+      <input type="radio" id="good" name="experience" value="good"> Good<br>
+      <input type="radio" id="average" name="experience" value="average"> Average<br><br>
+
+      <label for="features">Which features did you like? (Select all that apply)</label><br>
+      <input type="checkbox" id="design" name="features" value="design"> Design<br>
+      <input type="checkbox" id="performance" name="features" value="performance"> Performance<br>
+      <input type="checkbox" id="content" name="features" value="content"> Content<br><br>
+
+      <label for="comments">Additional Comments:</label><br>
+      <textarea id="comments" name="comments" rows="5" cols="40"></textarea><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ALL rights reserved</p>
+  </footer>
+</body>
+</html>
